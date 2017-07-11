@@ -17,6 +17,7 @@ Player.prototype.rollDie = function(){
 
 Player.prototype.saveScore = function() {
   this.totalScore = this.currentScore;
+  $("#result").append("<li> Your total score is "+ this.currentScore + "</li>");
 }
 
 
